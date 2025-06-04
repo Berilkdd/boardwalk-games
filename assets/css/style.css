@@ -5,7 +5,7 @@
 /* CSS Variables */
 
 :root {
-    --pimary-font: "Inter", sans-serif;
+    --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581;
@@ -16,7 +16,7 @@
 /* Global styles */
 
 body {
-    font-family: var(--pimary-font);
+    font-family: var(--primary-font);
     padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
 }
 
@@ -42,6 +42,11 @@ h2 {
 
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
+}
+
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
 }
 
 /* Buttons */
