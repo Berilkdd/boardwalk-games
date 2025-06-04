@@ -97,6 +97,20 @@ h2 {
     margin-bottom: 1.5rem;
  }
 
+ /* Events */
+
+ #events-table {
+   margin-top: 18px;
+ }
+
+ #offer-note {
+   background-color: var(--highlight-color);
+   color: white;
+   width: 300px;
+   max-width: 600px;
+   text-align: center;
+   
+ }
  /* Game library cards */
 
  #new-games .card,
